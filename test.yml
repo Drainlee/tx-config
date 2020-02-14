@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Drainlee/tx-config
+          username: 905817024@qq.com
+          password: Liyuzhuo19968191
+          basedir: D:\git\tx-config
