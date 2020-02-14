@@ -17,5 +17,9 @@ spring:
       initial-size: 5                                       # 初始化连接数
       max-total: 5                                          # 最大连接数
       max-wait-millis: 200
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://localhost:8760/eureka/
 env:
   dev
