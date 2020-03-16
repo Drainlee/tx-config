@@ -30,11 +30,4 @@ mybatis:
   type-aliases-package: cn.lyz.bean
   config-location: classpath:mybatis/mybatis.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
- eureka:
-  instance:
-    hostname: localhost
-    instance-id: tx-service-8081 # 实例id
-    prefer-ip-address: true # 访问地址允许显示ip地址
-  client:
-    service-url:
-      defaultZone: http://localhost:8760/eureka/
+
