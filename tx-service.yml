@@ -1,5 +1,5 @@
 env:
-  dev
+  service
 spring:
   application:
     name: tx-service
