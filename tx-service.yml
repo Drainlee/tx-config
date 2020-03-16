@@ -24,8 +24,6 @@ spring:
     ansi:
       enabled: always
 
-server:
-  port: 8080
 mybatis:
   type-aliases-package: cn.lyz.bean
   config-location: classpath:mybatis/mybatis.xml
@@ -33,7 +31,7 @@ mybatis:
 eureka:
   instance:
     hostname: localhost
-    instance-id: tx-service-8081 # 实例id
+    instance-id: tx-service-9000 # 实例id
     prefer-ip-address: true # 访问地址允许显示ip地址
   client:
     service-url:
