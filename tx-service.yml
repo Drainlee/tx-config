@@ -30,8 +30,7 @@ mybatis:
   type-aliases-package: cn.lyz.bean
   config-location: classpath:mybatis/mybatis.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
-
- eureka:
+eureka:
   instance:
     hostname: localhost
     instance-id: tx-service-8081 # 实例id
