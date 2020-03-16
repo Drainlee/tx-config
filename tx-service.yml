@@ -25,3 +25,6 @@ mybatis:
   type-aliases-package: cn.lyz.bean
   config-location: classpath:mybatis/mybatis.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
+  
+env:
+  dev
