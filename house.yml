@@ -30,4 +30,8 @@ mybatis:
   type-aliases-package: cn.lyz.bean
   config-location: classpath:mybatis/mybatis.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8760/eureka/
 
