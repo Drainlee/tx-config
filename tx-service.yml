@@ -1,1 +1,27 @@
-
+spring:
+  application:
+    name: tx-service
+  datasource:
+    dbcp2:
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 200
+      min-idle: 5
+      test-while-idle: true
+      validation-query: SELECT 'X'
+    driver-class-name: org.gjt.mm.mysql.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/tx_house?autoReconnect=true&wait_timeout=280000000
+    username: root
+    password: root
+  http:
+    encoding:
+      enabled: true
+      force-response: true
+  output:
+    ansi:
+      enabled: always
+mybatis:
+  type-aliases-package: cn.lyz.bean
+  config-location: classpath:mybatis/mybatis.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
